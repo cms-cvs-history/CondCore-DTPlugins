@@ -7,7 +7,7 @@
  *
  */
 
-#include "CondCore/PluginSystem/interface/registration_macros.h"
+#include "CondCore/ESSources/interface/registration_macros.h"
 #include "CondFormats/DTObjects/interface/DTReadOutMapping.h"
 #include "CondFormats/DataRecord/interface/DTReadOutMappingRcd.h"
 #include "CondFormats/DTObjects/interface/DTT0.h"
@@ -35,7 +35,7 @@
 #include "CondFormats/DataRecord/interface/DTLVStatusRcd.h"
 
 
-DEFINE_SEAL_MODULE();
+
 REGISTER_PLUGIN(DTReadOutMappingRcd,DTReadOutMapping);
 REGISTER_PLUGIN(DTT0Rcd,DTT0);
 REGISTER_PLUGIN(DTT0RefRcd,DTT0);
